@@ -1,0 +1,147 @@
+/* ---- Media Q ---- */
+
+
+@media (min-width:769px) {
+.wrapper {
+  text-align: center;
+  padding: 35px;
+}
+.banner {
+  display: flex;
+  flex-direction:row-reverse;
+  }
+.profile-icon {
+  margin-left:1.5%;
+  margin-right:1.5%;
+  align-self: flex-start;
+  
+  }
+.banner p { 
+/*  max-width: 550px;*/
+  margin-left: 1.5%;
+  margin-right:13%;
+  justify-content: space-between;
+  text-align:left;
+ 
+  }
+
+/* ---- Nav---- */
+
+.main-header {
+  justify-content: flex-end;
+    
+  }
+.name {
+  margin-top: 0;
+  padding-left: 1.25em;
+  padding-top: 0.75em;
+  align-self: center;
+  }
+
+.main-nav {
+  margin-top: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self:center;
+  }
+.main-nav li {
+  border: transparent;
+  margin-top: 6px;
+  }
+
+.container {
+  margin-right:1.5%;
+  margin-left:1.5%;
+  } 
+
+/* ---- Columns--- */
+.seventh {
+  clear:left;}
+.gallery {
+  float:left;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  width: 47%;
+  }
+
+/* ---- Skills--- */
+
+#skills,
+#contact {
+  padding-top: 0.5em;
+  padding-bottom:1em;
+  }
+
+ /* ---- Nav---- */
+.main-footer {
+height: 90px;
+  }
+.back-to-top {
+  display:none; 
+  }
+
+.footer-nav {
+  display:inline-block;}
+  }
+
+.wrapper {
+    min-height: calc(100vh - 90px);
+      }
+ 
+@media (min-width:1024px) {
+
+   /* ---- Nav---- */
+
+.name {
+  margin-right: auto;
+  padding-top:0;
+  padding-left: 4.5%;
+  }
+.main-header {
+  justify-content: flex-end;
+  flex-direction:row;
+  }
+
+        /* ---- Contacts+skills---- */
+
+#skills {
+  float:left;
+  width: 45%;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  border-bottom: none;
+  padding-top: 0;
+  padding-bottom:0;
+   
+  }
+
+#contact {
+  display: inline-block;
+  float: right;
+  width: 45%;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  
+  }
+/* ---- Columns--- */
+.third {
+  clear:none;
+}
+.fourth {
+  clear:left;
+  
+}
+
+.gallery {
+  width: 30%;
+  }
+
+
+.main-footer {
+  height: 58px;
+  } 
+.wrapper {
+      min-height: calc(100vh - 58px);
+}
+
+  }
