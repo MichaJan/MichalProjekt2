@@ -2,6 +2,16 @@
 
 
 @media (min-width:769px) {
+
+/*
+.third {
+  clear:left;
+}
+*/
+
+ .gallery:nth-child(4n) {
+clear:left;
+  }
 .wrapper {
   text-align: center;
   padding: 35px;
@@ -14,22 +24,22 @@
   margin-left:1.5%;
   margin-right:1.5%;
   align-self: flex-start;
-  
+
   }
-.banner p { 
-/*  max-width: 550px;*/
+.banner p {
+  max-width: 550px;
   margin-left: 1.5%;
   margin-right:13%;
   justify-content: space-between;
   text-align:left;
- 
+
   }
 
 /* ---- Nav---- */
 
 .main-header {
   justify-content: flex-end;
-    
+
   }
 .name {
   margin-top: 0;
@@ -52,16 +62,19 @@
 .container {
   margin-right:1.5%;
   margin-left:1.5%;
-  } 
+  }
 
 /* ---- Columns--- */
-.seventh {
-  clear:left;}
+/*
+    .seventh {
+      clear:left;}
+*/
+
 .gallery {
   float:left;
   margin-left:1.5%;
   margin-right:1.5%;
-  width: 47%;
+  width: 45%;
   }
 
 /* ---- Skills--- */
@@ -77,7 +90,7 @@
 height: 90px;
   }
 .back-to-top {
-  display:none; 
+  display:none;
   }
 
 .footer-nav {
@@ -87,7 +100,7 @@ height: 90px;
 .wrapper {
     min-height: calc(100vh - 90px);
       }
- 
+
 @media (min-width:1024px) {
 
    /* ---- Nav---- */
@@ -112,7 +125,7 @@ height: 90px;
   border-bottom: none;
   padding-top: 0;
   padding-bottom:0;
-   
+
   }
 
 #contact {
@@ -121,16 +134,26 @@ height: 90px;
   width: 45%;
   margin-left:1.5%;
   margin-right:1.5%;
-  
+
   }
 /* ---- Columns--- */
+/*
 .third {
   clear:none;
 }
 .fourth {
   clear:left;
-  
+
 }
+*/
+.gallery:nth-child(4n) {
+clear:none; }
+.gallery:nth-child(5n) {
+clear:left;
+  }
+.gallery:nth-child(8n) {
+clear:left;
+  }
 
 .gallery {
   width: 30%;
@@ -139,7 +162,7 @@ height: 90px;
 
 .main-footer {
   height: 58px;
-  } 
+  }
 .wrapper {
       min-height: calc(100vh - 58px);
 }
