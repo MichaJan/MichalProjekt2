@@ -4,8 +4,8 @@ Shows  usage of HTML, CSS and responsiveness.<br />
 Layout was created from scratch no usage of framework grids (Bootstrap etc.)<br />
 Various layout techniques.
 
-Link to the webpage:<br />
-http://mikaeljan.github.io/ResponsivePortfolio/
+## Live [demo](http://mikaeljan.github.io/ResponsivePortfolio/)
 
+## Contact
 For any questions please feel free to contact me:<br />
-mikael.janek@gmail.com
+<a href="mailto:mikael.janek@gmail.com">mikael.janek@gmail.com</a>
